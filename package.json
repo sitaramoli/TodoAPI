@@ -4,6 +4,9 @@
   "description": "nodejs api",
   "main": "app.js",
   "type": "module",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
